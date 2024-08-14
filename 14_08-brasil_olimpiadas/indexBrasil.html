@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <!--configurações prévias da página-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medalhas do Brasil</title>
+    <meta
+      name="description"
+      content="Quadro de medalhas dos jogos olímpicos de Paris de 2024"
+    />
+    <style>
+      /*mudando o design da página (estilizando)*/
+      body {
+        /*edtando todo o conteúdo visual da página, principalmente os textos*/
+        background-color: rgb(72, 205, 72);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        /*editando a parte visual da tabela*/
+        border: 2px solid black;
+        width: 80%;
+        text-align: center;
+        margin: 50px auto;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        /*editando as colunas*/
+        border: 2px solid black;
+        text-align: center;
+        padding: 10px;
+        font-size: 150%;
+      }
+      th {
+        background-color: rgb(70, 70, 70);
+        color: white;
+      }
+
+      tr {
+        background-color: white;
+      }
+      /*colocando a cor na respectiva medalha*/
+      td:nth-child(3) {
+        background-color: gold;
+      }
+      td:nth-child(4) {
+        background-color: silver;
+      }
+      td:nth-child(5) {
+        background-color: rgb(205, 127, 50);
+      }
+    </style>
+  </head>
+  <body>
+    <!--conteúdo da página-->
+    <h1>Brasil nas últimas 3 olimpíadas</h1>
+    <!--montando a tabela-->
+    <table>
+      <thead>
+        <th>ano</th>
+        <th>total</th>
+        <th>ouro</th>
+        <th>prata</th>
+        <th>bronze</th>
+        <th>ranking</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024</td>
+          <td>20</td>
+          <td>3</td>
+          <td>7</td>
+          <td>10</td>
+          <td>20°</td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td>21</td>
+          <td>7</td>
+          <td>6</td>
+          <td>8</td>
+          <td>12°</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>19</td>
+          <td>7</td>
+          <td>6</td>
+          <td>6</td>
+          <td>13°</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>DÁ PRA MELHORAR BRASIL!!!!</h1> <!--Crítica social-->
+
+    <!--colocando a foto do Brasil-->
+    <img
+      src="2-bandeira-do-brasil.webp"
+      title="bandeira do Brasil"
+      alt="bandeira do Brasil"
+    />
+  </body>
+</html>
