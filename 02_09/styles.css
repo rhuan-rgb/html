@@ -1,0 +1,64 @@
+/*estilos aplicados ao website "Prototipando"*/
+
+/*Seletor Universal - seleciona todos os elementos da página e aplica estilos comuns*/
+*{
+    margin:0; /*remove a margem padrão de todos os elementos*/
+    padding:0;
+    box-sizing: border-box; /*inclui bordas e preenchimentos no cálculo da largura e altura dos elementos*/
+
+} /*fechamento do seletor universal*/
+body {
+    font-family:Arial, Helvetica, sans-serif; /*define a fonte da página como Arial, com uma alternativa de sans-serif*/
+    background-color: rgb(52,52,119); /*define a cor de fundo do body / corpo do html*/
+    color: rgb(240,240,240); /*define a cor do texto com um tom suave de branco*/
+} /*fechamento do body*/
+
+/*estilo do cabeçalho*/
+header{
+    background-color: rgb(8, 15, 58);
+    padding: 40px;
+    text-align: center  ;
+}/*fechamento do header*/
+
+header button{
+    right: 20px; /*alinha o botão à direita, com 20px de distância da borda direita da página*/
+    position: absolute; /*Posiciona o botão de forma absoluta com relação ao cabeçalho*/
+    top: 20px; /*alinha o botão ao topo, com 20px de distância da borda superior*/
+    background-color: #7C83AF;
+    color: rgb(240, 240, 240);
+    padding: 10px 20px;
+    border-radius: 5px; /*arredonda os cantos do botão*/
+    border:none; /*remove a borda padrão do botão*/
+    cursor:pointer; /*faz aparecer a mãozinha do mouse quando passa por cima do botão*/
+}
+
+header h3{ /*remove a margem e o padding padrão do h3 dentro do header*/
+    margin:0;
+    padding:0;
+}/*fechamento header h3*/
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+main img{
+    /* width: 35%;
+    height: 35%; */
+    max-width: 150px; /*define a largura máxima das imagens dentro da main como 150px*/
+}
+
+section{
+    margin: 20px 0; /*define a margem superior e inferior das seções como 20px e 0 para as laterais*/
+}
+
+/*estilo do rodapé*/
+footer{
+    background-color: rgb(8, 15, 58);
+    padding: 40px;
+    text-align: center; /*alinha o texto do rodapé ao centro*/
+    bottom: 0;
+    position: absolute;
+    width: 100%; /*define a largura do rodapé como 100% da janela de visulização*/
+}/*fechamento do footer*/
+
